@@ -1,0 +1,41 @@
+*{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+title{
+  display:none;
+}
+
+style{
+  display: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    height: 15vw;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
